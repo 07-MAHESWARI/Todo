@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task</h1>
+    {{items}}
+
+    <br><br>
+
+    {%for i in items%}
+    {{i.taskname}}
+    {{i.description}}
+    {{i.due_date}}
+
+    <br>
+    {%endfor%}
+
+
+</body>
+</html>
